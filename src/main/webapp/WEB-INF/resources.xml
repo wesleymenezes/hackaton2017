@@ -3,7 +3,7 @@
 	<Resource id="serverDS" type="javax.sql.DataSource">
 	<![CDATA[
 		jdbcDriver = org.postgresql.Driver
-	  jdbcUrl = jdbc:postgresql://ec2-54-235-249-185.compute-1.amazonaws.com:5432/d7kqrldfjbn95?user=ycdupbyxtpyldr&password=2846ba84981ac23ebe0540c005a781a36632b5e9c64f41d12205011c90cefbc4
+          jdbcUrl = jdbc:postgresql://<hostname>:<port>/<database>?user=<username>&password=<password>
 	  initialSize = 5
   ]]>
 	</Resource>
