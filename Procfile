@@ -1,0 +1,1 @@
+web: java -cp target/server.war org.apache.tomee.embedded.Main -p$PORT
